@@ -39,6 +39,7 @@ export default {
     display flex
     flex-direction column
     align-items center
+    justify-content center
     font-size 20px
     &.on
       color #dd1a21

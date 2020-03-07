@@ -4,10 +4,13 @@ import App from './App.vue'
 import './tools/rem'
 // 引入路由
 import router from './router'
-
+// 引入公共组件
 import Footer from './components/Footer/Footer.vue'
+import {Button} from 'mint-ui'
 // 注册公共组件
-Vue.component(Footer.name,Footer)
+Vue.component(Footer.name, Footer)
+Vue.component(Button.name, Button)
+
 
 
 
