@@ -7,7 +7,8 @@
             "superCategoryId": 0,
             "name": "推荐专区",
             "id": 11,
-            "subCateList": []
+            "subCateList": [],
+            "bannerUrl":"https://yanxuan.nosdn.127.net/2bfff67c0a5ba0e3a34e3e05de5be761.jpg?quality=75&type=webp&imageView&thumbnail=0x196"
         },
         {
             "showIndex": 0,
@@ -16,7 +17,8 @@
             "superCategoryId": 0,
             "name": "宅家防护",
             "id": 12,
-            "subCateList": []
+            "subCateList": [],
+            "bannerUrl":"https://yanxuan.nosdn.127.net/2ac8dde0444ba9b06991c20087d37967.jpg?quality=75&type=webp&imageView&thumbnail=0x196"
         },
         {
             "showIndex": 0,
@@ -25,7 +27,8 @@
             "superCategoryId": 0,
             "name": "爆品专区",
             "id": 13,
-            "subCateList": []
+            "subCateList": [],
+            "bannerUrl":"https://yanxuan.nosdn.127.net/edc311882c97da117f860264548212e1.png?quality=75&type=webp&imageView&thumbnail=0x196"
         },
         {
             "showIndex": 15,

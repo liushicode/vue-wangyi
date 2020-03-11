@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="container">
     <router-view></router-view>
-    <Footer />
+    <Footer v-show="$route.meta.isShowFooter" />
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="stylus" rel="stylesheet/stylus">
+.container
+  width 100%
 </style>

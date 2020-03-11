@@ -1,6 +1,6 @@
 <template>
   <footer class="footer_guide">
-    <a href="javascript:;" class="iconfont icon-home" :class="{on:$route.path==='/home'}" @click="goPath('/home')">
+    <a href="javascript:;" class="iconfont icon-home" :class="{on:$route.path.includes('/home')}" @click="goPath('/home')">
       <span class="iconText">首页</span>
     </a>
     <a href="javascript:;" class="iconfont icon-fenlei" :class="{on:$route.path==='/category'}" @click="goPath('/category')">
@@ -30,10 +30,13 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
 .footer_guide
   width 100%
+  height 50px
   position fixed
   bottom 0
   padding 5px 0
   display flex
+  z-index 10
+  background-color #fff
   .iconfont
     flex 1
     display flex
